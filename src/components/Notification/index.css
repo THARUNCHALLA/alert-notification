@@ -1,0 +1,152 @@
+.successContainer1 {
+  background-color: #e5e5e5;
+  border: solid 0px #475569;
+  width: 310px;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+@media (min-width: 700px) {
+  .successContainer1 {
+    background-color: #e5e5e5;
+    border: solid 0px #475569;
+    width: 560px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+  }
+}
+
+.successContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.first {
+  display: flex;
+  align-items: center;
+}
+.success1 {
+  color: #2dca73;
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+}
+@media (min-width: 700px) {
+  .success1 {
+    color: #2dca73;
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+  }
+}
+.Error1 {
+  color: #ff0b37;
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+}
+@media (min-width: 700px) {
+  .Error1 {
+    color: #ff0b37;
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+  }
+}
+.Warning1 {
+  color: #ffb800;
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+}
+@media (min-width: 700px) {
+  .Warning1 {
+    color: #ffb800;
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+  }
+}
+.Info1 {
+  color: #0f81e0;
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+}
+@media (min-width: 700px) {
+  .Info1 {
+    color: #0f81e0;
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+  }
+}
+.commonContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.success {
+  color: #2dca73;
+  font-family: 'roboto';
+  font-size: 14px;
+}
+@media (min-width: 700px) {
+  .success {
+    color: #2dca73;
+    font-family: 'roboto';
+    font-size: 18px;
+  }
+}
+.Error {
+  color: #ff0b37;
+  font-family: 'roboto';
+  font-size: 14px;
+}
+@media (min-width: 700px) {
+  .Error {
+    color: #ff0b37;
+    font-family: 'roboto';
+    font-size: 18px;
+  }
+}
+.Warning {
+  color: #ffb800;
+  font-family: 'roboto';
+  font-size: 14px;
+}
+
+@media (min-width: 700px) {
+  .Warning {
+    color: #ffb800;
+    font-family: 'roboto';
+    font-size: 18px;
+  }
+}
+.Info {
+  color: #0f81e0;
+  font-family: 'roboto';
+  font-size: 14px;
+}
+@media (min-width: 700px) {
+  .Info {
+    color: #0f81e0;
+    font-family: 'roboto';
+    font-size: 18px;
+  }
+}
+.description {
+  font-size: 12px;
+  color: #64748b;
+  width: 240px;
+}
+@media (min-width: 700px) {
+  .description {
+    font-size: 12px;
+    color: #64748b;
+    width: 300px;
+  }
+}
+.tharun {
+  margin-top: 30px;
+}
